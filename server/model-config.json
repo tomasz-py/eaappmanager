@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "eaappmanagerdb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "eaappmanagerdb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "eaappmanagerdb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "eaappmanagerdb",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "eaappmanagerdb",
     "public": false
   },
   "Blogs": {

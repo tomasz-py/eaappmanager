@@ -4,7 +4,9 @@
     "generateOperationScopedModels": true
   },
   "loopback-content-range": {
-    "pattern": ["*.find"],
+    "pattern": [
+      "*.find"
+    ],
     "relatedModels": true
   }
 }

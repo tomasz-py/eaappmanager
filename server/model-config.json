@@ -42,5 +42,13 @@
   "AppUser": {
     "dataSource": "eaappmanagerdb",
     "public": true
+  },
+  "Client": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
   }
 }

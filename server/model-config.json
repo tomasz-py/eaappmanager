@@ -38,5 +38,9 @@
   "Blogs": {
     "dataSource": "eaappmanagerdb",
     "public": true
+  },
+  "AppUser": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
   }
 }

@@ -24,6 +24,11 @@
       "type": "hasMany",
       "model": "Address",
       "foreignKey": "clientId"
+    },
+    "subscriptions": {
+      "type": "hasMany",
+      "model": "Subscription",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],

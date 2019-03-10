@@ -50,5 +50,9 @@
   "Address": {
     "dataSource": "eaappmanagerdb",
     "public": true
+  },
+  "Subscription": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
   }
 }

@@ -1,0 +1,33 @@
+{
+  "name": "Server",
+  "plural": "servers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "host": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "serverDetails": {
+      "type": "hasOne",
+      "model": "ServerDetails",
+      "foreignKey": "serverId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

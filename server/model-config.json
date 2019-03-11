@@ -58,5 +58,13 @@
   "ServiceType": {
     "dataSource": "eaappmanagerdb",
     "public": true
+  },
+  "Server": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
+  },
+  "ServerDetails": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
   }
 }

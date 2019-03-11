@@ -16,6 +16,9 @@
     },
     "website": {
       "type": "string"
+    },
+    "logo": {
+      "type": "string"
     }
   },
   "validations": [],

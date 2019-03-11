@@ -19,6 +19,9 @@
     "zipCode": {
       "type": "string"
     },
+    "country": {
+      "type": "string"
+    },
     "isPrimary": {
       "type": "boolean"
     }

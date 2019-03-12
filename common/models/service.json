@@ -1,0 +1,46 @@
+{
+  "name": "Service",
+  "plural": "services",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "serverId": {
+      "type": "number"
+    },
+    "serviceTypeId": {
+      "type": "number"
+    },
+    "statusId": {
+      "type": "number"
+    },
+    "port": {
+      "type": "number"
+    },
+    "customName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "server": {
+      "type": "hasOne",
+      "model": "Server",
+      "foreignKey": "serverId"
+    },
+    "statuses": {
+      "type": "hasOne",
+      "model": "Status",
+      "foreignKey": "statusId"
+    },
+    "serviceTypes": {
+      "type": "hasOne",
+      "model": "ServiceType",
+      "foreignKey": "serviceTypeId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

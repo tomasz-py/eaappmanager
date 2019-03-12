@@ -1,0 +1,38 @@
+{
+  "name": "Instance",
+  "plural": "instances",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "clientId": {
+      "type": "number"
+    },
+    "statusId": {
+      "type": "number"
+    },
+    "expirationDate": {
+      "type": "date"
+    },
+    "isOn": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "clients": {
+      "type": "hasOne",
+      "model": "Client",
+      "foreignKey": "clientId"
+    },
+    "statuses": {
+      "type": "hasOne",
+      "model": "Status",
+      "foreignKey": "statusId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -66,5 +66,17 @@
   "ServerDetails": {
     "dataSource": "eaappmanagerdb",
     "public": true
+  },
+  "Status": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
+  },
+  "Service": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
+  },
+  "Instance": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
   }
 }

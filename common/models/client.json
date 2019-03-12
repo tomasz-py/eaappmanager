@@ -32,6 +32,11 @@
       "type": "hasMany",
       "model": "Subscription",
       "foreignKey": "clientId"
+    },
+    "instances": {
+      "type": "hasMany",
+      "model": "Instance",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],

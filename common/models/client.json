@@ -26,17 +26,17 @@
     "addresses": {
       "type": "hasMany",
       "model": "Address",
-      "foreignKey": "clientId"
+      "foreignKey": ""
     },
     "subscriptions": {
       "type": "hasMany",
       "model": "Subscription",
-      "foreignKey": "clientId"
+      "foreignKey": ""
     },
     "instances": {
       "type": "hasMany",
       "model": "Instance",
-      "foreignKey": "clientId"
+      "foreignKey": ""
     }
   },
   "acls": [],

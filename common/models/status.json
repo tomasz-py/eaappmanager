@@ -13,7 +13,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "instance": {
+      "type": "hasMany",
+      "model": "Instance",
+      "foreignKey": ""
+    },
+    "service": {
+      "type": "hasMany",
+      "model": "Service",
+      "foreignKey": ""
+    },
+    "server": {
+      "type": "hasMany",
+      "model": "Server",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

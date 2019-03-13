@@ -18,6 +18,9 @@
     },
     "description": {
       "type": "string"
+    },
+    "startTime": {
+      "type": "date"
     }
   },
   "validations": [],
@@ -25,7 +28,17 @@
     "serverDetails": {
       "type": "hasOne",
       "model": "ServerDetails",
-      "foreignKey": "serverId"
+      "foreignKey": ""
+    },
+    "service": {
+      "type": "hasMany",
+      "model": "Service",
+      "foreignKey": ""
+    },
+    "status": {
+      "type": "belongsTo",
+      "model": "Status",
+      "foreignKey": ""
     }
   },
   "acls": [],

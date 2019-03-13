@@ -24,7 +24,7 @@
     "client": {
       "type": "belongsTo",
       "model": "Client",
-      "foreignKey": "clientId"
+      "foreignKey": ""
     }
   },
   "acls": [

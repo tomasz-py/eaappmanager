@@ -7,11 +7,8 @@
     "validateUpsert": true
   },
   "properties": {
-    "clientId": {
-      "type": "number"
-    },
-    "statusId": {
-      "type": "number"
+    "description": {
+      "type": "boolean"
     },
     "expirationDate": {
       "type": "date"
@@ -22,15 +19,15 @@
   },
   "validations": [],
   "relations": {
-    "clients": {
-      "type": "hasOne",
+    "client": {
+      "type": "belongsTo",
       "model": "Client",
-      "foreignKey": "clientId"
+      "foreignKey": ""
     },
-    "statuses": {
-      "type": "hasOne",
+    "status": {
+      "type": "belongsTo",
       "model": "Status",
-      "foreignKey": "statusId"
+      "foreignKey": ""
     }
   },
   "acls": [],

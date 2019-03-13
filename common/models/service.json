@@ -12,6 +12,9 @@
     },
     "customName": {
       "type": "string"
+    },
+    "isOn": {
+      "type": "boolean"
     }
   },
   "validations": [],

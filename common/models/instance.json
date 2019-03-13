@@ -7,8 +7,11 @@
     "validateUpsert": true
   },
   "properties": {
+    "name": {
+      "type": "string"
+    },
     "description": {
-      "type": "boolean"
+      "type": "string"
     },
     "expirationDate": {
       "type": "date"

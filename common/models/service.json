@@ -10,7 +10,7 @@
     "port": {
       "type": "number"
     },
-    "customName": {
+    "description": {
       "type": "string"
     },
     "isOn": {

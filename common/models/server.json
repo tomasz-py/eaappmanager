@@ -19,9 +19,6 @@
     "description": {
       "type": "string"
     },
-    "isOn": {
-      "type": "boolean"
-    },
     "startTime": {
       "type": "date"
     }

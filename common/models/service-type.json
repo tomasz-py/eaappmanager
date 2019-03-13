@@ -1,6 +1,6 @@
 {
   "name": "ServiceType",
-  "plural": "ServiceTypes",
+  "plural": "Servicetypes",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -22,7 +22,7 @@
     "instance": {
       "type": "hasMany",
       "model": "Instance",
-      "foreignKey": ""
+      "foreignKey": "serviceTypeId"
     }
   },
   "acls": [],

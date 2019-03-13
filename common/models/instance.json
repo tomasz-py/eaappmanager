@@ -15,9 +15,6 @@
     },
     "expirationDate": {
       "type": "date"
-    },
-    "isOn": {
-      "type": "boolean"
     }
   },
   "validations": [],

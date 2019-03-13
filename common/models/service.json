@@ -12,9 +12,6 @@
     },
     "description": {
       "type": "string"
-    },
-    "isOn": {
-      "type": "boolean"
     }
   },
   "validations": [],
@@ -27,7 +24,7 @@
     "servicetype": {
       "type": "belongsTo",
       "model": "ServiceType",
-      "foreignKey": ""
+      "foreignKey": "serviceTypeId"
     },
     "status": {
       "type": "belongsTo",

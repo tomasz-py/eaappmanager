@@ -28,6 +28,12 @@
       "type": "belongsTo",
       "model": "Status",
       "foreignKey": ""
+    },
+    "service": {
+      "type": "hasMany",
+      "model": "Service",
+      "foreignKey": "instanceId",
+      "through": "ServiceInstance"
     }
   },
   "acls": [],

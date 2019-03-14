@@ -78,5 +78,9 @@
   "Instance": {
     "dataSource": "eaappmanagerdb",
     "public": true
+  },
+  "InstanceService": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
   }
 }

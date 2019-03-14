@@ -1,0 +1,25 @@
+{
+  "name": "InstanceService",
+  "plural": "",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "service": {
+      "type": "belongsTo",
+      "model": "Service",
+      "foreignKey": "serviceId"
+    },
+    "instance": {
+      "type": "belongsTo",
+      "model": "Instance",
+      "foreignKey": "instanceId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

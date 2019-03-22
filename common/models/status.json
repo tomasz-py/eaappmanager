@@ -28,6 +28,11 @@
       "type": "hasMany",
       "model": "Server",
       "foreignKey": ""
+    },
+    "queue": {
+      "type": "hasMany",
+      "model": "Queue",
+      "foreignKey": ""
     }
   },
   "acls": [],

@@ -1,0 +1,32 @@
+{
+  "name": "Queue",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "tableName": {
+      "type": "string"
+    },
+    "itemId": {
+      "type": "number"
+    },
+    "message": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "status": {
+      "type": "belongsTo",
+      "model": "Status",
+      "foreignKey": "statusId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

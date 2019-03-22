@@ -82,5 +82,9 @@
   "InstanceService": {
     "dataSource": "eaappmanagerdb",
     "public": true
+  },
+  "Queue": {
+    "dataSource": "eaappmanagerdb",
+    "public": true
   }
 }

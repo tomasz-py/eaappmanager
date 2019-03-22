@@ -12,6 +12,9 @@
     },
     "description": {
       "type": "string"
+    },
+    "toRestart": {
+      "type": "boolean"
     }
   },
   "validations": [],

@@ -6,7 +6,12 @@ module.exports = function(Instance) {
       {
         where: { id: id },
         fields: {
-          description: false
+          description: false,
+          name: false,
+          expirationDate: false,
+          clientId: false,
+          statusId: false,
+          id: false
         },
         include: [
           {
@@ -26,6 +31,6 @@ module.exports = function(Instance) {
     returns: { arg: "instance", type: "array" },
     description:
       "Return id's of services to restart (where toRestart is True and status is Online)",
-    http: { path: "/services-torestart", verb: "get" }
+    http: { path: "/services-torestart/:id", verb: "get" }
   });
 };

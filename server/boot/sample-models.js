@@ -12,7 +12,7 @@ module.exports = async function(app) {
   User.create(
     [
       { username: "admin", email: "admin@admin.pl", password: "admin!?" },
-      { username: "test", email: "test@test.pl", password: "test" }
+      { username: "user", email: "test@test.pl", password: "user" }
     ],
     function(err, users) {
       if (err) throw err;

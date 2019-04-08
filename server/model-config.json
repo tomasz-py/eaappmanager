@@ -82,13 +82,5 @@
   "Queue": {
     "dataSource": "eaappmanagerdb",
     "public": true
-  },
-  "Appuserperm": {
-    "dataSource": "eaappmanagerdb",
-    "public": true
-  },
-  "Permission": {
-    "dataSource": "eaappmanagerdb",
-    "public": true
   }
 }

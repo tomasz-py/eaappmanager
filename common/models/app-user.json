@@ -8,11 +8,11 @@
   "properties": {},
   "validations": [],
   "relations": {
-    "permission": {
+    "roles": {
       "type": "hasMany",
-      "model": "Permission",
-      "foreignKey": "userId",
-      "through": "Appuserperm"
+      "model": "Role",
+      "foreignKey": "principalId",
+      "through": "RoleMapping"
     }
   },
   "acls": [

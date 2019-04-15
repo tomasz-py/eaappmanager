@@ -38,7 +38,7 @@
       "type": "hasMany",
       "model": "Instance",
       "foreignKey": "serviceId",
-      "through": "ServiceInstance"
+      "through": "InstanceService"
     }
   },
   "acls": [

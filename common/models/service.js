@@ -35,4 +35,24 @@ module.exports = function(Service) {
     }
     next();
   });
+
+  // Service.assignedServices = function(id, cb) {
+  //   Service.find({
+  //     include: {
+  //       // include orders for the owner
+  //       relation: "instance",
+  //       scope: {
+  //         where: { instanceId: id } // only select order with id 5
+  //       }
+  //     }
+  //   });
+  //   cb;
+  // };
+
+  // Service.remoteMethod("assignedServices", {
+  //   accepts: { arg: "id", type: "number", required: true },
+  //   returns: { arg: "services", type: "array" },
+  //   description: "Return services assigned to given instance",
+  //   http: { path: "/assignedservices/:id", verb: "get" }
+  // });
 };
